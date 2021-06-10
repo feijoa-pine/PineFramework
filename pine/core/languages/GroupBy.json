@@ -1,0 +1,14 @@
+{
+    "could_not_get_param_on_group_by": {
+        "ja_JP": "GroupByでは [:@0] は取得できません。"
+    },
+    "could_not_set_param_on_group_by": {
+        "ja_JP": "GroupByには [:@0] は設定できません。"
+    },
+    "invalid_param_group_by": {
+        "ja_JP": "GroupByに不正な型の値が渡されました。[:@0]"
+    },
+    "invalid_param_add_group_by": {
+        "ja_JP": "GroupBy::add()に不正な型の値が渡されました。[:@0]"
+    }
+}

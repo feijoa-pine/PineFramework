@@ -1,0 +1,6 @@
+/nbproject
+/composer
+/node_modules
+/caches/*
+/sites/*
+!.gitkeep

@@ -1,0 +1,44 @@
+{
+    "invalid_set_param_on_select": {
+        "ja_JP": "Selectでは [:@0] は設定できません。"
+    },
+    "invalid_get_param_on_select": {
+        "ja_JP": "Selectでは [:@0] は取得できません。"
+    },
+    "invalid_alias_on_select": {
+        "ja_JP": "Selectのaliasに不正な型の値が渡されました。[:@0]"
+    },
+    "invalid_select_on_select": {
+        "ja_JP": "Selectのselect要素に不正な型の値が渡されました。[:@0]"
+    },
+    "invalid_from_on_select": {
+        "ja_JP": "Selectのfromに不正な型の値が渡されました。[:@0]"
+    },
+    "invalid_from_in_array_on_select": {
+        "ja_JP": "Selectのfromに渡された配列内に不正な型の値があります。[:@0]"
+    },
+    "invalid_group_by_on_select": {
+        "ja_JP": "Selectのgroup_byに不正な型の値が渡されました。[:@0]"
+    },
+    "empty_group_by_on_select": {
+        "ja_JP": "Selectに渡されたgroup_byには条件が設定されていません。"
+    },
+    "invalid_where_on_select": {
+        "ja_JP": "Selectのwhereに不正な型の値が渡されました。[:@0]"
+    },
+    "empty_where_on_select": {
+        "ja_JP": "Selectに渡されたwhereには条件が設定されていません。"
+    },
+    "invalid_order_by_on_select": {
+        "ja_JP": "Selectのorder_byに不正な型の値が渡されました。[:@0]"
+    },
+    "empty_order_by_on_select": {
+        "ja_JP": "Selectに渡されたorder_byには条件が設定されていません。"
+    },
+    "invalid_limit_on_select": {
+        "ja_JP": "Selectのlimitに不正な型の値が渡されました。[:@0]"
+    },
+    "empty_limit_count_by_on_select": {
+        "ja_JP": "Selectに渡されたlimitにはcountが設定されていません。"
+    }
+}

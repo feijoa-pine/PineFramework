@@ -1,0 +1,8 @@
+{
+    "array_is_not_allowed": {
+        "ja_JP": "Bamboo::updateByWhere()のdataにarrayが渡されました。複数のデータモデルでのアップデートは出来ません。"
+    },
+    "invalid_param_on_update_by_where": {
+        "ja_JP": "Bamboo::updateByWhere()の第２引数に不正な値が渡されました。[:@0]"
+    }
+}

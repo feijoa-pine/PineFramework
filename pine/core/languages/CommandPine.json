@@ -1,0 +1,158 @@
+{
+    "site_id_is_missing": {
+        "ja_JP": "サイトIDが渡されませんでした。"
+    },
+    "control_command_is_missing": {
+        "ja_JP": "実行したいメソッドが渡されませんでした。"
+    },
+    "command_target_is_missing": {
+        "ja_JP": "メソッドの操作対象が渡されませんでした。"
+    },
+    "file_not_exists": {
+        "ja_JP": "指定されたファイルが存在しません。[:@0]"
+    },
+    "un_allowable_command_is_given": {
+        "ja_JP": "許容できないメソッドが渡されました。[:@0]"
+    },
+    "make_command_name_is_missing": {
+        "ja_JP": "作成するコマンド名が渡されませんでした。"
+    },
+    "command_directory_already_exists": {
+        "ja_JP": "対象のコマンドディレクトリが存在します。[:@0]"
+    },
+    "command_directory_doesnt_exists": {
+        "ja_JP": "対象のコマンドディレクトリが存在しません。[:@0]"
+    },
+    "input_description": {
+        "ja_JP": "ファイルヘッダーのDescriptionを指定してください。"
+    },
+    "un_allowable_category_is_given": {
+        "ja_JP": "許容できないカテゴリが渡されました。[:@0]"
+    },
+    "drop_command_name_is_missing": {
+        "ja_JP": "削除するコマンド名が渡されませんでした。"
+    },
+    "un_allowable_category_is_given": {
+        "ja_JP": "許容できないカテゴリが渡されました。[:@0]"
+    },
+    "target_command_name_is_missing": {
+        "ja_JP": "対象のコマンド名が渡されませんでした。"
+    },
+    "make_action_name_is_missing": {
+        "ja_JP": "作成するアクション名が渡されませんでした。"
+    },
+    "confirm_drop_command": {
+        "ja_JP": "本当にコマンド [:@0] を削除してもよろしいですか？[Y/n]"
+    },
+    "quit_pine": {
+        "ja_JP": "処理を終了します。"
+    },
+    "drop_command_modules_has_failed": {
+        "ja_JP": "コマンドのモジュールが削除できませんでした。"
+    },
+    "drop_command_publics_has_failed": {
+        "ja_JP": "コマンドの公開ファイルが削除できませんでした。"
+    },
+    "destination_directory_has_exists": {
+        "ja_JP": "作成を試みるコマンドディレクトリは既に存在します。\n[:@0]"
+    },
+    "make_model_name_is_missing": {
+        "ja_JP": "作成するモデル名が渡されませんでした。"
+    },
+    "make_action_name_is_missing": {
+        "ja_JP": "作成するアクション名が渡されませんでした。"
+    },
+    "site_not_exists": {
+        "ja_JP": "サイトが存在しません。"
+    },
+    "coifirm_doom_site": {
+        "ja_JP": "この処理は不可逆的にディレクトリ以下を全て削除します。削除するディレクトリパスが正しいか確認してください。"
+    },
+    "site_exists": {
+        "ja_JP": "指定されたパスにサイト[:@0]のフォルダが存在します。"
+    },
+    "confirm_destroy_site": {
+        "ja_JP": "本当にサイト [:@0] を削除してもよろしいですか？[Y/n]"
+    },
+    "confirm_drop_controller": {
+        "ja_JP": "本当にController [:@0Controller] を削除してもよろしいですか？[Y/n]"
+    },
+    "drop_dto_name_is_missing": {
+        "ja_JP": "削除するDTO名、HTTPメソッド名が渡されませんでした。"
+    },
+    "confirm_drop_dto": {
+        "ja_JP": "本当にDTO [:@0:::@2:@1] を削除してもよろしいですか？[Y/n]"
+    },
+    "drop_action_name_is_missing": {
+        "ja_JP": "削除するアクション名、HTTPメソッド名が渡されませんでした。"
+    },
+    "confirm_drop_action": {
+        "ja_JP": "本当にAction [:@0:::@2:@1] を削除してもよろしいですか？[Y/n]"
+    },
+    "drop_model_name_is_missing": {
+        "ja_JP": "削除するモデル名が渡されませんでした。"
+    },
+    "confirm_drop_model": {
+        "ja_JP": "本当にModel [:@0:::@1Model] を削除してもよろしいですか？[Y/n]"
+    },
+    "drop_ume_name_is_missing": {
+        "ja_JP": "削除するDTO名、HTTPメソッド名が渡されませんでした。"
+    },
+    "confirm_drop_ume": {
+        "ja_JP": "本当にUME [:@0:::@2:@1UME] を削除してもよろしいですか？[Y/n]"
+    },
+    "drop_view_name_is_missing": {
+        "ja_JP": "削除するヴュー名、HTTPメソッド名が渡されませんでした。"
+    },
+    "confirm_drop_view": {
+        "ja_JP": "本当にView [:@0:::@2:@1View] を削除してもよろしいですか？[Y/n]"
+    },
+    "drop_template_name_is_missing": {
+        "ja_JP": "削除するテンプレート名、HTTPメソッド名が渡されませんでした。"
+    },
+    "confirm_drop_template": {
+        "ja_JP": "本当にTemplate [:@0:::@2_:@1.:@3] を削除してもよろしいですか？[Y/n]"
+    },
+    "drop_scss_name_is_missing": {
+        "ja_JP": "削除するscss名が渡されませんでした。"
+    },
+    "drop_stylesheet_name_is_missing": {
+        "ja_JP": "削除するスタイルシート名、HTTPメソッド名が渡されませんでした。"
+    },
+    "confirm_drop_stylesheet": {
+        "ja_JP": "本当にスタイルシート [:@0:::@2_:@1.:@3] を削除してもよろしいですか？[Y/n]"
+    },
+    "drop_script_name_is_missing": {
+        "ja_JP": "削除するScript名、HTTPメソッド名が渡されませんでした。"
+    },
+    "confirm_drop_script": {
+        "ja_JP": "本当にスクリプト [:@0:::@2_:@1.:@3] を削除してもよろしいですか？[Y/n]"
+    },
+    "drop_utility_name_is_missing": {
+        "ja_JP": "削除するUtility名が渡されませんでした。"
+    },
+    "confirm_drop_utility": {
+        "ja_JP": "本当に [:@0] を削除してもよろしいですか？[Y/n]"
+    },
+    "method_execute_successfully": {
+        "ja_JP": "[Success] メソッドは正常に実行されました。"
+    },
+    "method_execute_warnned": {
+        "ja_JP": "[Warning] メソッドは正常に実行されましたが、警告が発生しています。"
+    },
+    "method_execute_failuer": {
+        "ja_JP": "[Error] メソッドは正常に実行されませんでした。"
+    },
+    "template_argv_doen_not_passed": {
+        "ja_JP": "--template に対するテンプレート名が渡されませんでした。"
+    },
+    "site_template_does_not_exists": {
+        "ja_JP": "サイトテンプレートディレクトリが存在しません。"
+    },
+    "make_ume_name_is_missing": {
+        "ja_JP": "作成するUME名が渡されませんでした。"
+    },
+    "destination_directory_has_exists": {
+        "ja_JP": "作成を試みるコマンドディレクトリは既に存在します。[:@0]"
+    }
+}

@@ -1,0 +1,129 @@
+{
+    "site_id_is_missing": {
+        "ja_JP": "サイトIDが渡されませんでした。"
+    },
+    "file_not_exists": {
+        "ja_JP": "指定されたファイルが存在しません。[:@0]"
+    },
+    "method_is_missing": {
+        "ja_JP": "メソッドが渡されませんでした。"
+    },
+    "category_is_missing": {
+        "ja_JP": "操作カテゴリが渡されませんでした。"
+    },
+    "target_is_missing": {
+        "ja_JP": "処理対象が渡されませんでした。"
+    },
+    "un_allowable_method_is_given": {
+        "ja_JP": "許容できないメソッドが渡されました。[:@0]"
+    },
+    "un_allowable_category_is_given": {
+        "ja_JP": "許容できないカテゴリが渡されました。[:@0]"
+    },
+    "make_datamodel_name_is_missing": {
+        "ja_JP": "作成するデータモデル名が渡されませんでした。"
+    },
+    "table_definition_file_does_not_exists": {
+        "ja_JP": "テーブル定義ファイル [:@0] が見つかりません。"
+    },
+    "target_datamodel_is_missing": {
+        "ja_JP": "対象のデータモデルが存在しません。[:@0]"
+    },
+    "drop_datamodel_name_is_missing": {
+        "ja_JP": "破棄するデータモデル名が渡されませんでした。"
+    },
+    "quit_pine": {
+        "ja_JP": "処理を終了します。"
+    },
+    "confirm_drop_datamapper": {
+        "ja_JP": "本当にコマンド [:@0] のテーブルまたはヴューとデータモデルを削除してもよろしいですか？[Y/n]"
+    },
+    "confirm_drop_datamodel": {
+        "ja_JP": "本当にコマンド [:@0] のデータモデル削除してもよろしいですか？[Y/n]"
+    },
+    "confirm_drop_table": {
+        "ja_JP": "本当にコマンド [:@0] のテーブルまたはヴューを削除してもよろしいですか？[Y/n]"
+    },
+    "un_expected_target_has_given": {
+        "ja_JP": "[:0] に対して、予期しない操作対象フラグが渡されました。[:@1]"
+    },
+    "make_datamodel_name_is_missing": {
+        "ja_JP": "登録対象となるデータモデル名が渡されませんでした。"
+    },
+    "false_returned_when_register_csv_individual": {
+        "ja_JP": "CSV登録の個別処理で false が返されました。"
+    },
+    "table_definition_file_does_not_exists": {
+        "ja_JP": "データ定義ファイル [:@0] が見つかりません。"
+    },
+    "target_datamodel_is_missing": {
+        "ja_JP": "対象のデータモデルが存在しません。[:@0]"
+    },
+    "target_table_does_not_exists": {
+        "ja_JP": "対象のテーブルが存在しません。[:@0]"
+    },
+    "target_table_could_not_be_deleted": {
+        "ja_JP": "対象のテーブルまたはヴューを削除できませんでした。[:@0]"
+    },
+    "target_table_has_been_already_exists": {
+        "ja_JP": "対象のテーブルは既に存在します。[:@0]"
+    },
+    "target_table_could_not_be_created": {
+        "ja_JP": "対象のテーブルを作成できませんでした。[:@0]"
+    },
+    "un_supported_database_specified": {
+        "ja_JP": "非対応のデータベースが選択されました。[:@0]"
+    },
+    "backup_datamodel_has_failed": {
+        "ja_JP": "DataModelのバックアップが出来ませんでした。[:@0]"
+    },
+    "target_datamodel_is_missing": {
+        "ja_JP": "対象のデータモデルが存在しません。[:@0]"
+    },
+    "un_allowed_charactor_for_datamodel_is_given": {
+        "ja_JP": "データモデルに使用できない文字が渡されました。[:@0]"
+    },
+    "un_allowed_charactor_for_datamodel_is_given": {
+        "ja_JP": "データモデルに使用できない文字が渡されました。[:@0]"
+    },
+    "table_definition_file_does_not_exists": {
+        "ja_JP": "テーブル定義ファイル [:@0] が見つかりません。"
+    },
+    "target_datamodel_does_not_exists": {
+        "ja_JP": "対象のDataModelが存在しません。[:@0]"    
+    },
+    "backup_datamodel_has_failed": {
+        "ja_JP": "DataModelのバックアップが出来ませんでした。[:@0]"
+    },
+    "un_allowed_charactor_for_datamodel_is_given": {
+        "ja_JP": "データモデルに使用できない文字が渡されました。[:@0]"
+    },
+    "un_allowed_charactor_for_datamodel_is_given": {
+        "ja_JP": "データモデルに使用できない文字が渡されました。[:@0]"
+    },
+    "data_file_does_not_exists": {
+        "ja_JP": "データファイル [:@0] が見つかりません。"
+    },
+    "method_execute_successfully": {
+        "ja_JP": "[Success] メソッドは正常に実行されました。"
+    },
+    "method_execute_failuer": {
+        "ja_JP": "[Error] メソッドは正常に実行されませんでした。"
+    },
+    "input_root_password": {
+        "ja_JP": "Database [:@0@:@1] の [:@2] ユーザーのパスワードを入力して下さい。"
+    },
+    "confirm_create_database": {
+        "ja_JP":  "本当にデータベース [:@0] を作成してもよろしいですか？[Y/n]"
+    },
+    "create_database_failed": {
+        "ja_JP": "データベース [:@0@:@1.:@2] の作成に失敗しました。"
+    },
+    "confirm_drop_database": {
+        "ja_JP": "本当にデータベース [:@0] を削除してもよろしいですか？[Y/n]"
+    },
+    "drop_database_failed": {
+        "ja_JP": "データベース [:@0@:@1.:@2] の破棄に失敗しました。"
+    }
+}
+

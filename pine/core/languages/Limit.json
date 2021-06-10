@@ -1,0 +1,17 @@
+{
+    "invalid_set_param_on_limit": {
+        "ja_JP": "Limitでは [:@0] は設定できません。"
+    },
+    "invalid_get_param_on_limit": {
+        "ja_JP": "Limitでは [:@0] は取得できません。"
+    },
+    "invalid_param_number_on_limit": {
+        "ja_JP": "Limitに不正な数のパラメターが渡されました。[要素数: :@0]"
+    },
+    "invalid_first_param_on_limit": {
+        "ja_JP": "Limitの第一引数に数値以外が渡されました。[:@0]"
+    },
+    "invalid_second_param_on_limit": {
+        "ja_JP": "Limitの第二引数に数値以外が渡されました。[:@0]"
+    }
+}

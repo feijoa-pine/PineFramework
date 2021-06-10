@@ -1,0 +1,80 @@
+{
+    "invalid_jp_mailaddress_value": {
+        "ja_JP": "[:@0] はメールアドレスの書式が間違っています。"
+    },
+    "invalid_jp_phone_value": {
+        "ja_JP": "[:@0] は電話番号の書式が間違っています。"
+    },
+    "invalid_jp_zip_value": {
+        "ja_JP": "[:@0] は郵便番号の書式が間違っています。"
+    },
+    "tmp_file_not_uploaded": {
+        "ja_JP": "[:@0] がアップロードファイルされていません。"
+    },
+    "tmp_file_not_exists": {
+        "ja_JP": "[:@0] のアップロードファイルが見つかりません。"
+    },
+    "invalid_file_type": {
+        "ja_JP": "[:@0] の [:@1] は、許可されていないファイル形式です。[許可形式： :@2 | 入力： :@3]"
+    },
+    "invalid_digit_value": {
+        "ja_JP": "[:@0] には数字以外が含まれています。"
+    },
+    "invalid_alphabet_value": {
+        "ja_JP": "[:@0] には英字以外が含まれています。"
+    },
+    "invalid_integer_value": {
+        "ja_JP": "[:@0] は整数でなければなりません。"
+    },
+    "invalid_odd_integer_value": {
+        "ja_JP": "[:@0] は奇数でなければなりません。"
+    },
+    "invalid_even_integer_value": {
+        "ja_JP": "[:@0] は偶数でなければなりません。"
+    },
+    "invalid_even_integer_value": {
+        "ja_JP": "[:@0] は4の倍数でなければなりません。"
+    },
+    "invalid_positive_integer_value": {
+        "ja_JP": "[:@0] は正の整数でなければなりません。"
+    },
+    "invalid_decimal_value": {
+        "ja_JP": "[:@0] は数値でなければなりません。"
+    },
+    "invalid_decimal1_value": {
+        "ja_JP": "[:@0] は数値（小数は1桁まで）でなければなりません。"
+    },
+    "invalid_decimal2_value": {
+        "ja_JP": "[:@0] は数値（小数は2桁まで）でなければなりません。"
+    },
+    "invalid_rfc822_mailaddress_value": {
+        "ja_JP": "[:@0] はメールアドレスがの書式が間違っています。（RFC822に準拠していません）"
+    },
+    "invalid_alphanum_value": {
+        "ja_JP": "[:@0] は英数字以外が含まれています。"
+    },
+    "invalid_snake_alphanum_value": {
+        "ja_JP": "[:@0] はスネークケース外の英数字が含まれています。"
+    },
+    "invalid_ascii_value": {
+        "ja_JP": "[:@0] はASCII文字以外が含まれています。"
+    },
+    "invalid_hiragana_value": {
+        "ja_JP": "[:@0] はひらがな以外が含まれています。"
+    },
+    "invalid_katakana_value": {
+        "ja_JP": "[:@0] はカタカナ以外が含まれています。"
+    },
+    "invalid_katakananame_value": {
+        "ja_JP": "[:@0] はカタカナ以外が含まれているか、スペース区切りの名前形式ではありません。"
+    },
+    "invalid_hankana_value": {
+        "ja_JP": "[:@0] は半角カタカナ以外が含まれています。"
+    },
+    "invalid_date_value": {
+        "ja_JP": "[:@0] は有効な日付ではありません。（2020-01-31の形式にしてください）"
+    },
+    "invalid_datetime_value": {
+        "ja_JP": "[:@0] は有効な日時ではありません。（2020-01-01 00:00:00の形式にしてください）"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "null_could_not_escape": {
+        "ja_JP": "escape に NULL が渡されました。エスケープできません。"
+    },
+    "wrang_param_on_escape": {
+        "ja_JP": "quoteに文字列以外が渡されました。[:@0]"
+    },
+    "wrang_reference_option": {
+        "ja_JP": "外部キー制約のリファレンスオプションに不正な値が指定されました。[:@0]"
+    },
+    "invalid_table_type": {
+        "ja_JP": "DBUTIL::table()に不正なテーブルタイプが指定されました。[:@0]"
+    },
+    "un_support_database_for_table_exists": {
+        "ja_JP": "DBUTIL.tableExists() に、このシステムで対応しないデータベースが指定されました。[:@0]"
+    },
+    "un_support_database_for_get_table_list": {
+        "ja_JP": "DBUTIL::getTableList() に、このシステムで対応しないデータベースが指定されました。[:@0]"
+    },
+    "un_support_database_for_make_table_structure": {
+        "ja_JP": "DBUTIL::makeTableStructure() に、このシステムで対応しないデータベースが指定されました。[:@0]"
+    }
+    
+    
+    
+}

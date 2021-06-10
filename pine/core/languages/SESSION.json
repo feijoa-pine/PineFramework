@@ -1,0 +1,14 @@
+{
+    "argument_count_not_allowed_as_set": {
+        "ja_JP": "SESSION::set()に渡された引数の数が不正です。"
+    },
+    "argument_count_not_allowed_as_isset": {
+        "ja_JP": "SESSION::isset()に渡された引数が不正です。"
+    },
+    "argument_count_not_allowed_as_get": {
+        "ja_JP": "SESSION::get()に渡された引数が不正です。"
+    },
+    "argument_count_not_allowed_as_purge": {
+        "ja_JP": "SESSION::purge()に渡された引数が不正です。"
+    }
+}

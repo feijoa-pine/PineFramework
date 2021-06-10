@@ -1,0 +1,11 @@
+{
+    "could_not_connect_db": {
+        "ja_JP": "データベースに接続できませんでした。[:@0.:@1]"
+    },
+    "connect_db_retry_timeout": {
+        "ja_JP": "データベース接続のタイムアウト（:@2 回）に達しました。[:@0.:@1]"
+    },
+    "un_support_database": {
+        "ja_JP": "このシステムでは対応しないDataBaseです。[:@0]"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "un_arrowable_charactor_for_path_concat": {
+        "ja_JP": "PATH::join()に、パスとして許容できない文字が渡されました。[:@0]"
+    },
+    "specified_path_not_exists": {
+        "ja_JP": "指定されたパスは実在しません。[:@0]"
+    }
+}

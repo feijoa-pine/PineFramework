@@ -1,0 +1,17 @@
+{
+    "invalid_having_on_having": {
+        "ja_JP": "Havingのhavingに配列以外が渡されました。[:@0]"
+    },
+    "invalid_set_param_on_having": {
+        "ja_JP": "Havingでは [:@0] は設定できません。"
+    },
+    "could_not_get_param_on_having": {
+        "ja_JP": "Havingでは [:@0] は取得できません。"
+    },
+    "invalid_and_or_on_having": {
+        "ja_JP": "Havingに不正な型のand_orが渡されました。[:@0]"
+    },
+    "invalid_number_arrya_on_having": {
+        "ja_JP": "Havingに不正な要素数の配列が渡されました。[要素数: :@0]"
+    }
+}

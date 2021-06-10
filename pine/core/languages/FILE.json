@@ -1,0 +1,38 @@
+{
+    "destination_already_exists": {
+        "ja_JP": "指定されたパスにファイルまたはフォルダが存在します。[:@0]"
+    },
+    "source_directory_not_exists": {
+        "ja_JP": "コピー元のディレクトリが存在しません。[:@0]"
+    },
+    "could_not_open_dir_handle": {
+        "ja_JP": "ディレクトリハンドルがオープンできません。[:@0]"
+    },
+    "destination_dir_not_exists": {
+        "ja_JP": "指定されたディレクトリが存在しません。[:@0]"
+    },
+    "destination_path_is_not_directory": {
+        "ja_JP": "指定されたパスはディレクトリではありません。[:@0]"
+    },
+    "except_should_be_string_or_array": {
+        "ja_JP": "除外する拡張子は文字列か配列で渡してください。[:@0]"
+    },
+    "limit_should_be_string_or_array": {
+        "ja_JP": "限定する拡張子は文字列か配列で渡してください。[:@0]"
+    },
+    "upload_file_not_found": {
+        "ja_JP": "アップロードデータが見つかりません。[:@0]"
+    },
+    "file_is_not_uploaded": {
+        "ja_JP": "アップロードされたファイルではありません。[:@0]"
+    },
+    "upload_file_could_not_move": {
+        "ja_JP": "アップロードデータが保存できませんでした。[:@0 > :@1]"
+    },
+    "dir_could_not_be_removed": {
+        "ja_JP": "指定されたディレクトリが削除出来ませんでした。[:@0]"
+    },
+    "serial_number_exception": {
+        "ja_JP": "ファイル名インデックスの最大値に到達しました。[:@0 番]"
+    }
+}

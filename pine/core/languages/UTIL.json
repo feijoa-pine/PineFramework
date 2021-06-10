@@ -1,0 +1,8 @@
+{
+    "util": {
+        "ja_JP": { 
+            "un_arrowable_charactor_for_path_concat": "Util::path_concat()に、パスとして許容できない文字が渡されました。[:@0]",
+            "destination_directory_has_exists": "作成を試みるコマンドディレクトリは既に存在します。\n[:@0]"
+        }
+    }
+}

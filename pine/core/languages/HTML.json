@@ -1,0 +1,14 @@
+{
+    "invalid_param_has_passed": {
+        "ja_JP": "HTML ユーティリティに対し attribute として渡された値の型が不正です。\n値は破棄されました。[key: :@0 型 :@1]"
+    },
+    "invalid_inner": {
+        "ja_JP": "inner 要素に、不正な値が渡されました。\n:@0"
+    },
+    "invalid_structre_has_passed": {
+        "ja_JP": "HTML ユーティリティに対し structure として渡された値の型が不正です。\n値は破棄されました。[型 :@0]"
+    },
+    "yaml_parse_error": {
+        "ja_JP": "HTML ユーティリティに対して渡された structure の文法が不正です。\n[:@0]\n値は破棄されました。"
+    }
+}

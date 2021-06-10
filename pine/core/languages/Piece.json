@@ -1,0 +1,41 @@
+{
+    "invalid_get_param_piece": {
+        "ja_JP": "Pieceでは [:@0] は取得できません。"
+    },
+    "invalid_set_param_piece": {
+        "ja_JP": "Pieceでは [:@0] は設定できません。"
+    },
+    "invalid_key_on_piece": {
+        "ja_JP": "Pieceのキーに文字列以外が指定されました。[:@0]"
+    },
+    "empty_key_on_piece": {
+        "ja_JP": "Pieceにキーが指定されませんでした。"
+    },
+    "invalid_value_on_exists_piece": {
+        "ja_JP": "EXISTSまたはNOTEXISTSのPieceの値にSelectオブジェクト以外が指定されました。[:@0]"
+    },
+    "invalid_value_on_array_piece": {
+        "ja_JP": "Pieceのvalにarrayが指定されましたが、IN、NOTINまたはBETWEEN、NOTBETWEEN以外でarrayを指定することはできません。"
+    },
+    "invalid_value_on_between_piece": {
+        "ja_JP": "タイプ: BETEEEN のPieceに渡された配列の要素数が不正です。許容される要素数は2です。[要素数: :@0]"
+    },
+    "invalid_value_in_array_on_piece": {
+        "ja_JP": "Pieceの値に渡された配列に文字列または数値以外の値が含まれています。[:@0]"
+    },
+    "invalid_value_on_piece": {
+        "ja_JP": "タイプ BETWEEN のPieceの値に配列以外が渡されました。[:@0]"
+    },
+    "invalid_object_value_on_piece": {
+        "ja_JP": "Pieceに不正な型の値が渡されました。[:@0]"
+    },
+    "inappropriate_null_value_on_piece": {
+        "ja_JP": "Pieceの値にnullが指定されました。MATCH、NOT、ISNULL、ISNOTNULL以外でnullを指定することはできません。"
+    },
+    "invalid_typename_on_piece": {
+        "ja_JP": "Pieceのタイプに不正な値が指定されました。[:@0]"
+    },
+    "invalid_extra_on_piece": {
+        "ja_JP": "Pieceのエクストラに文字列以外が渡されました。[:@0]"
+    }
+}

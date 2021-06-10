@@ -1,0 +1,14 @@
+{
+    "system": {
+        "ja_JP": { 
+            "view_not_defined": "Viewが設定されていません。",
+            "view_not_implemented": "Viewが実装されていません。[:@0]",
+            "dto_not_implemented": "DTOが実装されていません。[:@0]",
+            "http_405": "このメソッドでのご要望のコマンド実行は許可されていません。",
+            "http_500": "サーバ内部にエラーが発生しました。",
+            "http_501": "ご要望の機能は実装されていません。",
+            "has_validation_error": "バリデーションエラーがあります。",
+            "pdo_initialize_error": "PDOが取得できませんでした。"
+        }
+    }
+}

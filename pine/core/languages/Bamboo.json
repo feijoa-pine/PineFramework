@@ -1,0 +1,125 @@
+{
+    "access_not_allowed": {
+        "ja_JP": "Bambooに対する不正なパラメタ―要求です。[:@0]"
+    },
+    "not_supported": {
+        "ja_JP": "このシステムでは対応していないデータベースです。[:@0]"
+    },
+    "invalid_view_name_in_create_view": {
+        "ja_JP": "Bamboo::createView()のview_nameに不正な型のパラメターが渡されました。[:@0]"
+    },
+    "view_name_not_defined_in_create_view": {
+        "ja_JP": "Bamboo::createView()に対するview_nameが設定されていません。"
+    },
+    "invalid_param_in_create_view": {
+        "ja_JP": "Bamboo::createView()のcolumnsに不正な型のパラメターが渡されました。[:@0]"
+    },
+    "invalid_view_name_in_drop_view": {
+        "ja_JP": "Bamboo::dropView()のview_nameに不正な型のパラメターが渡されました。[:@0]"
+    },
+    "view_name_not_defined_in_drop_view": {
+        "ja_JP": "Bamboo::dropView()に対するview_nameが設定されていません。"
+    },
+    "invalid_param_in_create_view_array": {
+        "ja_JP" : "Bamboo::createView()のcolumnsに渡された配列にstring型以外のパラメターが渡されました。[:@0]"
+    },
+    "invalid_param": {
+        "ja_JP": "Bamboo::getStructures()の引数に文字列以外が渡されました。structureを取得するテーブル名を指定して下さい。[:@0]"
+    },
+    "not_supported": {
+        "ja_JP": "このシステムでは対応していないデータベースです。[:@0]"
+    },
+    "invalid_param_on_get_constraints": {
+        "ja_JP": "Bamboo::getConstraints()の引数に文字列以外が渡されました。constraintを取得するテーブル名を指定して下さい。[:@0]"
+    },
+    "not_supported": {
+        "ja_JP": "このシステムでは対応していないデータベースです。[:@0]"
+    },
+    "invalid_param_on_get_indexes": {
+        "ja_JP": "Bamboo::getIndexes()の引数に文字列以外が渡されました。indexを取得するテーブル名を指定して下さい。[:@0]"
+    },
+    "table_undefined": {
+        "ja_JP": "使用するテーブルが指定されていません。"
+    },
+    "invalid_param_on_select": {
+        "ja_JP": "Bamboo::select()に不正な引数が渡されました。[:@0]"
+    },
+    "invalid_param_on_from": {
+        "ja_JP": "FROM条件に不正な引数が渡されました[:@0]"
+    },
+    "select_needs_alias_on_from": {
+        "ja_JP": "FROM条件のSELECTにエイリアスがありません。"
+    },
+    "invalid_param_on_join": {
+        "ja_JP": "JOIN文に対する結合条件に不正な型の値が渡されました。[:@0]"
+    },
+    "db_not_supported_jois": {
+        "ja_JP": "[:@0] では [:@1] は実行できません。"
+    },
+    "invalid_join_type": {
+        "ja_JP": "Bamboo::join()に予期しないJOINタイプが指定されました。[:@0]"
+    },
+    "invalid_param_on_using": {
+        "ja_JP": "Bamboo::usingに不正な型の値が渡されました。[:@0]"
+    },
+    "invalid_param_on_where": {
+        "ja_JP": "Bamboo::whereNormal()にWhereオブジェクト以外が渡されました。[:@0]"
+    },
+    "invalid_param_on_group_by": {
+        "ja_JP": "Bamboo::groupBy()にGroupByオブジェクト以外が渡されました。[:@0]"
+    },
+    "invalid_param_on_order_by": {
+        "ja_JP": "Bamboo::orderBy()にOrderByオブジェクト以外が渡されました。[:@0]"
+    },
+    "invalid_params_count": {
+        "ja_JP": "Bamboo::limit()に許可されていない数の引数が渡されました。[:@0]"    
+    },
+    "invalid_param_on_limit": {
+        "ja_JP": "Bamboo::limit()にLimitオブジェクト以外が渡されました。[:@0]"
+    },
+    "invalid_param_on_union": {
+        "ja_JP": "Bamboo::union()に不正な値が渡されました。[:@0]"
+    },
+    "invalid_value_passed_to_insert": {
+        "ja_JP": "Bamboo::insert()にDataModel以外の値が渡されました。[:@0]"
+    },
+    "wrong_param_type2_update": {
+        "ja_JP": "Bamboo::update()の引数2にboolean以外の値が渡されました。[:@0]"
+    },
+    "incorrect_params_for_delete_by_where": {
+        "ja_JP": "Bamboo::deleteByWhere()に不正な数のパラメターが渡されました。[:@0]"
+    },
+    "incorrect_param_for_delete_by_where": {
+        "ja_JP": "Bamboo::deleteByWhere()の第一引数に不正な型のパラメターが渡されました。[:@0]"
+    },
+    "incorrect_where_for_delete_by_where": {
+        "ja_JP": "Bamboo::deleteByWhere()のwhere指定に不正な型のパラメターが渡されました。[:@0]"
+    },
+    "unknown_exec_mode": {
+        "ja_JP": "不明な実行モードです。[:@0]"
+    },
+    "invalid_assertion_argument": {
+        "ja_JP": "アサーションメソッドで許可されていないモードが渡されました。[:@0]"
+    },
+    "result_is_not_integer_at_dml": {
+        "ja_JP": "データベースに対するDML操作結果の型が不正です。[:@0]"
+    },
+    "result_is_zero_at_dml": {
+        "ja_JP": "データベースに対するDML操作対象が0です。この処理で許容されている対象数は 1 です。"
+    },
+    "result_is_not_empty": {
+        "ja_JP": "データベースに対するSELECT結果が存在します。この処理で許容されている結果数は 0 です。"
+    },
+    "result_over_one_at_dml": {
+        "ja_JP": "データベースに対するDML操作対象が複数あります。この処理で許容されている対象数は 1 です。"
+    },
+    "result_is_not_integer_at_select": {
+        "ja_JP": "データベースに対するSELECT結果の型が不正です。[:@0]"
+    },
+    "result_is_zero_at_select": {
+        "ja_JP": "データベースに対するSELECT結果が0です。この処理で許容されている結果数は 1 です。"
+    },
+    "result_over_one_at_select": {
+        "ja_JP": "データベースに対するSELECT結果が複数あります。この処理で許容されている結果数は 1 です。"
+    }
+}

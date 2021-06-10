@@ -1,0 +1,20 @@
+{
+    "invalid_get_param_on_where": {
+        "ja_JP": "Whereでは [:@0] は取得できません。"
+    },
+    "invalid_where_on_where": {
+        "ja_JP": "Whereのwhere要素に配列以外が渡されました。[:@0]"
+    },
+    "invalid_set_param_on_where": {
+        "ja_JP": "Whereでは [:@0] は設定できません。"
+    },
+    "invalid_param_type_on_where": {
+        "ja_JP": "Whereに配列以外の型の値が渡されました。[:@0]"
+    },
+    "invalid_params_number_on_where": {
+        "ja_JP": "Whereに渡された配列の引数の数が不正です。許容値は2つ以上4つ以下です。[要素数: :@0]"
+    },
+    "invalid_and_or_on_where": {
+        "ja_JP": "Whereにand_orに不正な値が渡されました。[:@0]"
+    }  
+}

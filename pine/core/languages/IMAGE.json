@@ -1,0 +1,11 @@
+{
+    "gd_resource_could_not_be_created": {
+        "ja_JP": "指定されたファイルからGDリソースを生成出来ませんでした。"
+    },
+    "image_could_not_be_created": {
+        "ja_JP": "画像が書き出せませんでした。[:@0]"
+    },
+    "file_could_not_be_deleted": {
+        "ja_JP": "ファイルが削除出来ませんでした。[:@0]"
+    }
+}

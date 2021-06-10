@@ -1,0 +1,44 @@
+{
+    "name":                             "mikisan/pine",
+    "type":                             "project",
+    "description":                      "Pine Framework is MVC2 framework with extended striking codes.",
+    "keywords":                         ["framework", "pine"],
+    "homepage":                         "https://github.com/feijoa-pine/PineFramework",
+    "license":                          "proprietary",
+    "minimum-stability":                "dev",
+    "authors": [
+        {
+            "name":                     "Katsuhiko Miki",
+            "email":                    "feijoa.pine@gmail.com",
+            "homepage":                 "https://striking-forces.jp/",
+            "role":                     "Developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type":                     "git",
+            "url":                      "https://github.com/feijoa-pine/PineFramework.git"
+        }
+    ],
+    "require": {
+        "php":                          ">=7.3 <8.0",
+        "twig/twig":                    "^3.0",
+        "symfony/yaml":                 "^5.0",
+        "michelf/php-markdown":         "^1.0",
+        "geoip2/geoip2":                "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit":              "^9.0"
+    },
+    "scripts": {
+        "post-create-project-cmd": [
+            "npm ci"
+        ]
+    },
+    "config": {
+        "platform": {
+            "php":                      "7.3.0"
+        },
+        "vendor-dir" :                  "./composer/vendor"
+    }
+}

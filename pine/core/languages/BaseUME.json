@@ -1,0 +1,65 @@
+{
+    "invalid_closure_in_register_varidator": {
+        "ja_JP": "UME::registerValidator()の closure に関数以外が渡されました。[:@0]"
+    },
+    "invalid_get": {
+        "ja_JP": "UMEでは [:@0] は取得できません。"
+    },
+    "invalid_condition_key": {
+        "ja_JP": "バリデーションルール [:@0] の設定に、許可されていないキー [:@1] が使用されています。"
+    },
+    "custom_validation_not_implemented": {
+        "ja_JP": "UME::custom()がコールされましたが、メソッド doCustomValidate() が実装されていません。"
+    },
+    "validation_error_occured": {
+        "ja_JP": "バリデーションエラーが発生しました。"
+    },
+    "empty_value_in_requierd_column": {
+        "ja_JP": "[:@0] は必須入力項目ですが、値が渡されませんでした。"
+    },
+    "validation_type_not_defined": {
+        "ja_JP": "バリデーションタイプ　[:@0] は定義されていません。"
+    },
+    "invalid_choice": {
+        "ja_JP": "UME定義のchoiceの型が不正です。"
+    },
+    "out_of_choice_range": {
+        "ja_JP": "[:@0] に範囲外の値が指定されています。\n（許容値： :@1）"
+    },
+    "invalid_size": {
+        "ja_JP": "[:@0] の最大値 [:@1] は不正なサイズ指定です。"
+    },
+    "file_is_empty": {
+        "ja_JP": "[:@0] のファイル [:@1] は、ファイルサイズが取得できませんでした。"
+    },
+    "too_large_file_size": {
+        "ja_JP": "[:@0] のファイル [:@1] は、ファイルサイズが大きすぎます。 :@2 以下にしてください。"
+    },
+    "too_small_number": {
+        "ja_JP": "[:@0] は、:@1 以上の数値にしてください。"
+    },
+    "too_large_number": {
+        "ja_JP": "[:@0] は、:@1 以下の数値にしてください。"
+    },
+    "too_less_string": {
+        "ja_JP": "[:@0] は、:@1 文字以上にしてください。"
+    },
+    "too_much_string": {
+        "ja_JP": "[:@0] は、:@1 文字以内にしてください。"
+    },
+    "invalid_decode_definition": {
+        "ja_JP": "[:@0] のバリデーション設定内に記述された、キー [:@1] の decode の値が不正です。[:@2]"
+    },
+    "invalid_value_in_base64_array": {
+        "ja_JP": "[:@0] に base64 で利用可能な文字以外が含まれているため、デコードができませんでした。要素 [:@1]"
+    },
+    "invalid_value_in_base64": {
+        "ja_JP": "[:@0] に base64 で利用可能な文字以外が含まれているため、デコードができませんでした。"
+    },
+    "invalid_method_definition": {
+        "ja_JP": "[:@0] のバリデーション設定内に記述された、キー [:@1] の method の値が不正です。[:@2]"
+    },
+    "invalid_method_definition": {
+        "ja_JP": "[:@0] のバリデーション設定内に記述された、キー [:@1] の method の値が不正です。[:@2]"
+    }
+}

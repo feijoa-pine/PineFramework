@@ -1,0 +1,21 @@
+{
+    "ja_JP": { 
+        "E": {
+            "wrang_lang": "言語設定に配列以外が渡されました。[ :@0 ]",
+            "empty_key": "渡されたキーが空でした。",
+            "wrang_key": "文字列ではないキーが渡されました。[ :@0 ]",
+            "wrang_parameter": "パラメターに配列以外の型が渡されました。[ :@0 ]",
+            "wrang_param_on_fetch": "I18N::fetch()に対する第一引数の型が不正です。[ :@0 ]",
+            "specified_is_not_file": "指定されたパスはファイルではありません。[ :@0 ]",
+            "file_could_not_read": "指定されたファイルが読み込めませんでした。[ :@0 ]",
+            "file_could_not_decode": "指定されたパスのファイルがJSONデコードできませんでした。[ :@0 ]",
+            "wrang_filename_on_system": "I18N::system()の [filename] にstring以外が渡されました。[ :@0 ]",
+            "specified_is_not_file_on_system": "指定されたパスはファイルではありません。[ :@0 ]",
+            "file_could_not_read_on_system": "指定されたファイルが読み込めませんでした。[ :@0 ]",
+            "file_could_not_decode_on_system": "指定されたパスのファイルがJSONデコードできませんでした。[ :@0 ]"        },
+        "W": {
+            "replaced_with_defalut": "言語 :@0 は設定されていません。デフォルトメッセージで置き換えられました。",
+            "replaced_with_defined": "言語 :@0 は設定されていません。設定済みロケール [ :@1 ] で置き換えられました。" 
+        }
+    }
+}

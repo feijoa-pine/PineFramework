@@ -1,0 +1,23 @@
+{
+    "empty_table_name": {
+        "ja_JP": "使用するテーブルが指定されていません。"
+    },
+    "invalid_number": {
+        "ja_JP": "カラム [:@0] 型 [:@1] のデフォルトが数値ではありません。[:@2]"
+    },
+    "invalid_boolean": {
+        "ja_JP": "カラム [:@0] 型 [:@1] のデフォルトがBOOL型ではありません。[:@2]"
+    },
+    "multiple_primary_key": {
+        "ja_JP": "プライマリキーが複数渡されました。\nprimary key の指定の他に、auto_increment が指定されているカラムが存在しないか確認して下さい。\n\n:@0"
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}

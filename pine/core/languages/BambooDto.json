@@ -1,0 +1,14 @@
+{
+    "data_mode_undefined": {
+        "ja_JP": "DataModelが指定されていません。"
+    },
+    "invalid_data_mode": {
+        "ja_JP": "DataMapperに不適切なDataModelが渡されました。[:@0] 期待値: [:@1]"
+    },
+    "invalid_arg_for_register_upsert_query": {
+        "ja_JP": "BambooDto::registerUpsertQuery()に対応していない引数が渡されました。[:@0]"
+    },
+    "invalid_arg_for_prepare_upsert_query": {
+        "ja_JP": "BambooDto::prepareUpsertQuery()に対応していない引数が渡されました。[:@0]"
+    }
+}

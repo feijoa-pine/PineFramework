@@ -1,0 +1,11 @@
+{
+    "specified_path_not_exists": {
+        "ja_JP": "指定されたパスが存在しません。[:@0]"
+    },
+    "finfo_open_could_not_use": {
+        "ja_JP": "finfo_open() はPHPで読み込まれていません。"
+    },
+    "mime_type_undefined": {
+        "ja_JP": "MIME-Typeが識別できませんでした。[:@0]"
+    }
+}

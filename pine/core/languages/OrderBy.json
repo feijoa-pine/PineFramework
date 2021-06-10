@@ -1,0 +1,20 @@
+{
+    "invalid_get_param_order_by": {
+        "ja_JP": "OrderByでは [:@0] は取得できません。"
+    },
+    "invalid_set_param_order_by": {
+        "ja_JP": "OrderByでは [:@0] は設定できません。"
+    },
+    "invalid_param_order_by": {
+        "ja_JP": "OrderByに配列以外の値が渡されました。[:@0]"
+    },
+    "invalid_number_params_order_by": {
+        "ja_JP": "OrderByに対する不正な要素数の配列が与えられました。認められる要素数は1または2です。[要素数: :@0]"
+    },
+    "invalid_first_params_order_by": {
+        "ja_JP": "OrderByに渡された配列の第1引数が不正な型です。[型: :@0 値: :@1]"
+    },
+    "invalid_second_params_order_by": {
+        "ja_JP": "OrderByに渡された配列の第2引数が不正な型です。[型: :@0 値: :@1]"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "template": {
+        "ja_JP": { 
+            "not_exists": "Templateファイルが存在しません。[:@0]"
+        }
+    }
+}

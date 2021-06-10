@@ -1,0 +1,11 @@
+{
+    "could_not_get_schema": {
+        "ja_JP": "スキーマ [:@0] は取得できません。"
+    },
+    "could_not_get_param": {
+        "ja_JP": "[:@0] は取得できません。"
+    },
+    "could_not_set_param": {
+        "ja_JP": "[:@0] は設定できません。"
+    }
+}

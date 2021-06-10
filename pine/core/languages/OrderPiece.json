@@ -1,0 +1,14 @@
+{
+    "invalid_param_get_order_piece": {
+        "ja_JP": "OrderPieceでは [:@0] は取得できません。"
+    },
+    "invalid_param_on_order_piece": {
+        "ja_JP": "OrderPieceに不正な型の値が渡されました。[:@0]"
+    },
+    "invalid_params_number_on_order_piece": {
+        "ja_JP": "不正な要素数の配列がOrderPieceに渡されました。許容値は1または2です。[要素数: :@0]"
+    },
+    "invalid_sort_on_order_piece": {
+        "ja_JP": "OrderPieceに不正なソート順が渡されました。[:@0]"
+    }
+}

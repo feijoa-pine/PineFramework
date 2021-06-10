@@ -1,0 +1,26 @@
+{
+    "invalid_set_param": {
+        "ja_JP": "[:@0] では [:@1] は設定できません。"
+    },
+    "invalid_get_param": {
+        "ja_JP": "[:@0] では [:@1] は取得できません。"
+    },
+    "invalid_path_specified": {
+        "ja_JP": "ディレクトリパスに、相対パスは許可されません。"
+    },
+    "upload_dir_could_not_make": {
+        "ja_JP": "アップロードデータの保存ディレクトリが作成できませんでした。[:@0]"
+    },
+    "original_dir_could_not_make": {
+        "ja_JP": "アップロードデータのオリジナル用保存ディレクトリが作成できませんでした。[:@0]"
+    },
+    "medium_dir_could_not_make": {
+        "ja_JP": "アップロードデータのミディアムサイズ用保存ディレクトリが作成できませんでした。[:@0]"
+    },
+    "small_dir_could_not_make": {
+        "ja_JP": "アップロードデータのスモールサイズ用保存ディレクトリが作成できませんでした。[:@0]"
+    },
+    "thumbnail_dir_could_not_make": {
+        "ja_JP": "アップロードデータのサムネイル用保存ディレクトリが作成できませんでした。[:@0]"
+    }
+}

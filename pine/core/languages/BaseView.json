@@ -1,0 +1,26 @@
+{
+    "false_returned_when_draw_executed": {
+        "ja_JP": "View::draw() メソッド実行結果で false が返されました。処理を実装してください。"
+    },
+    "template_does_not_exists": {
+        "ja_JP": "Templateファイルが存在しません。[:@0]"
+    },
+    "http_400": {
+        "ja_JP": "リクエスト内容が不正です。"
+    },
+    "http_405": {
+        "ja_JP": "このメソッドでのご要望のコマンド実行は許可されていません。"
+    },
+    "http_500": {
+        "ja_JP": "サーバ内部にエラーが発生しました。"
+    },
+    "http_501": {
+        "ja_JP": "ご要望の機能は実装されていません。"
+    },
+    "invalid_concat_argument": {
+        "ja_JP": "View::concat() に、文字列以外が渡されました。[key :@0, value: :@1]"
+    },
+    "invalid_concat_with": {
+        "ja_JP": "View::concat() の連結対象が文字列ではありません。[key :@0, 型: :@1]"
+    }
+}

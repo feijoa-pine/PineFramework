@@ -1,0 +1,47 @@
+{
+    "empty_table_name": {
+        "ja_JP": "使用するテーブルが指定されていません。"
+    },
+    "empty_table_name": {
+        "ja_JP": "使用するテーブルが指定されていません。"
+    },
+    "invalid_type_from": {
+        "ja_JP": "FROM条件の不正な型が渡されました。[:@0]"
+    },
+    "select_needs_alias_on_from": {
+        "ja_JP": "FROM条件のSELECTにエイリアスがありません。"
+    },
+    "invalid_type_from": {
+        "ja_JP": "FROM条件に不正な型が渡されました。[:@0]"
+    },
+    "invalid_param_in_array_on_select": {
+        "ja_JP": "Bamboo::select()に渡された配列の中に不正な型の引数が渡されました。[:@0]"
+    },
+    "empty_select_alias_on_join": {
+        "ja_JP": "JOIN文のselectに対するaliasが設定されていません。"
+    },
+    "invalid_select_on_join": {
+        "ja_JP": "JOIN文のselectに不正な型の値が渡されました。[:@0]"
+    },
+    "not_string_on_using": {
+        "ja_JP": "Bamboo::using()に渡された配列内に文字列以外が含まれていました。[:@0]"
+    },
+    "invalid_number_on": {
+        "ja_JP": "Bamboo::on()にわたされたon条件のパラメター数が不正です。[:@0]"
+    },
+    "invalid_param_on_first": {
+        "ja_JP": "Bamboo::on()にわたされたon条件の第一パラメターに文字列以外の値が渡されました。[:@0]"
+    },
+    "invalid_param_on_second": {
+        "ja_JP": "Bamboo::on()にわたされたon条件の第二パラメターに文字列以外の値が渡されました。[:@0]"
+    },
+    "empty_timestamp_on_optimistic_concurrency_control": {
+        "ja_JP": "楽観排他処理のためのタイムスタンプが渡されませんでした。[:@0] を設定して下さい。"
+    },
+    "optimistic_concurrency_control_select_error": {
+        "ja_JP": "楽観排他用のレコードが取得出来ませんでした。[レコード: :@0]"
+    },
+    "optimistic_concurrency_control_error": {
+        "ja_JP": "楽観排他処理が行われました。対象レコードが別のアカウントによって更新されている可能性があります。[レコード: :@0]"
+    }
+}

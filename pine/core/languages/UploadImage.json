@@ -1,0 +1,26 @@
+{
+    "image_destroy_failed": {
+        "ja_JP": "画像リソースが破棄出来ませんでした。"
+    },
+    "temp_image_destroy_failed": {
+        "ja_JP": "テンポラリ画像リソースが破棄出来ませんでした。"
+    },
+    "file_info_not_found": {
+        "ja_JP": "ファイル情報が取得できませんでした。"
+    },
+    "move_upload_file_fail": {
+        "ja_JP": "アップロードファイルの移動ができませんでした。"
+    },
+    "empty_output_resource": {
+        "ja_JP": "ファイルに書き出すためのリソースが作成されていません。"
+    },
+    "invalid_mime_type": {
+        "ja_JP": "対応していないファイルタイプです。[:@0]"
+    },
+    "file_output_failed": {
+        "ja_JP": "ファイルが書き出せませんでした。"
+    },
+    "resource_is_empty": {
+        "ja_JP": "画像リソースが取得されていません。"
+    } 
+}

@@ -1,0 +1,22 @@
+/**
+ * Project Name: 三木　克彦グループウェア
+ * Description : モーダルプログレスアイコンスタイルシート
+ * Start Date  : 2019/03/29 14:51:34
+ * Copyright   : K.M http://feijoa.jp
+ * 
+ * @author 三木　克彦
+ */
+#progress_cover {
+    background-color:   rgba(0, 0, 0, 0);
+    width:              100%;
+    height:             100%;
+    position:           fixed;
+    top:                0;
+    left:               0;
+    transition:         all 500ms ease;
+    
+    &.dark {
+        background-color:   rgba(0, 0, 0, 0.7);
+    }
+}
+
