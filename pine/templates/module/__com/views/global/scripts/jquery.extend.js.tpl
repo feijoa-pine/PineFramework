@@ -1,11 +1,4 @@
-/**
- * Project Name: Pine Framework
- * Description : jQuery extends
- * Start Date  : 2019/03/12 16:34:11
- * Copyright   : Katsuhiko Miki. feijoa.striking-forces.jp
- * 
- * @author 三木　克彦
- */
+{:fileheader}
 (function()
 {
     $.extend(
@@ -16,7 +9,20 @@
          * @param {type} obj
          * @returns {undefined}
          */
-        fetch: function(obj)
+        fetch: (obj, url, data, done, always, dataType, processData, hide)=>
+        {
+            return (typeof obj === "object")
+                        ? $.fetch1(obj)
+                        : $.fetch2(obj, url, data, done, always, dataType, processData, hide)
+                        ;
+        },
+        /**
+         * $.ajax()のラッパー関数
+         * 
+         * @param {type} obj
+         * @returns {undefined}
+         */
+        fetch1: (obj)=>
         {
             if(obj.icon !== false)
             {
@@ -26,31 +32,70 @@
             // ワンタイムチケット
             if(obj.type.toUpperCase() === "POST")
             {
-                obj.data[TICKET_KEY] = $("*[name=" + TICKET_KEY + "]").val();
+                obj.data[TICKET_KEY] = $("*[name='" + TICKET_KEY + "']").val();
             }
             
-            $.ajax({ url: obj.url, type: obj.type, data: obj.data, dataType: obj.dataType })
-            .fail(function(jqXHR, textStatus, errorThrown)  { $.progress_hide(); return $.show_communication_error(); })
+            $.ajax(obj)
+            .fail(function(jqXHR, textStatus, errorThrown)
+            {
+                $.progress_hide();
+                
+                return $.show_communication_error();
+            })
             .done(function(response, textStatus, jqXHR)
             {
                 $.progress_hide();
                 
                 if(typeof response[TICKET_KEY] !== "undefined")
                 {
-                    $("*[name=" + TICKET_KEY + "]").val(response[TICKET_KEY]);
+                    $("*[name='" + TICKET_KEY + "']").val(response[TICKET_KEY]);
                 }
                 
+                if(!$.is_success(response, "popup"))  { return false; }
+
                 if(typeof obj.done !== "undefined")
                 {
                     if(!obj.done(response, textStatus, jqXHR))  { return false; }
                 }
-    
-                if(response.status === false)
+            })
+            .always(function(jqXHR, textStatus, errorThrown)
+            {
+                if(typeof obj.always !== "undefined")
                 {
-                    $.show_error_message(response);
-                    return false;
+                    if(!obj.always(jqXHR, textStatus, errorThrown))  { return false; }
                 }
-                return obj.done(response, textStatus, jqXHR);
+            });
+        },
+        /**
+         * $.ajax()のラッパー関数
+         * 
+         * @param {type} obj
+         * @returns {undefined}
+         */
+        fetch2: (method, url, data, done, always, dataType = "JSON", processData = true, hide = true)=>
+        {
+            if(hide !== false)
+            {
+                $.progress_show();  // プログレスアイコンの表示
+            }
+            
+            // ワンタイムチケット
+            if(method.toUpperCase() === "POST")
+            {
+                data[TICKET_KEY] = $("*[name='" + TICKET_KEY + "']").val();
+            }
+            
+            $.ajax({ url: url, type: method, data: data, dataType: dataType })
+            .fail(function(jqXHR, textStatus, errorThrown)  { $.progress_hide(); return $.show_communication_error(); })
+            .done(function(response, textStatus, jqXHR)
+            {
+                $.progress_hide();
+                if(typeof response[TICKET_KEY] !== "undefined")
+                {
+                    $("*[name='" + TICKET_KEY + "']").val(response[TICKET_KEY]);
+                }
+                if(!$.is_success(response, "popup"))    { return false; }
+                if(!done(response, textStatus, jqXHR))  { return false; }
             });
         },
         /**
@@ -68,7 +113,15 @@
                 {
                     case "neighbour":
                     case "neibor":
-                    case "popup":       $.popalert("error", "エラー", response.message);    break;
+                    case "popup":
+                        
+                        const error_title = (typeof response.status_code !== "undefined")
+                                                        ? response.status_code + " エラー"
+                                                        : "エラー"
+                                                        ;
+                        $.popalert("error", error_title, response.message);
+                        break;
+                        
                     case "message":
                     default:            $.show_error_message_area(response);    break;
                 }
@@ -129,6 +182,38 @@
             {
                 obj.html(obj.text().replace(/[\n\r]/g, "<br>"));
             }
+        },
+        /**
+         * OSの改行コードを返す
+         * 
+         * @returns {String}
+         */
+        get_cr_char: () =>
+        {
+            const   agent = navigator.userAgent
+            
+            if (agent.indexOf("Win") >= 0)
+            {
+                return "\r\n";
+            }
+            else if(theAgent.indexOf("Mac") >= 0)
+            {
+                return "\r"
+            }
+            else
+            {
+                return "\n"
+            }
+        },
+        /**
+         * url を正規化する
+         * 
+         * @param   {String}    url
+         * @returns {String}
+         */
+        normalize_url: (url) =>
+        {
+            return  url.replace(/\/+/gm, "/").replace(/(https?:\/)/, "$1/");
         },
         /**
          * HTMLタグを実体参照に置き換え

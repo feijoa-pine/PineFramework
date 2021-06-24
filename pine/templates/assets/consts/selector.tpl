@@ -9,7 +9,13 @@ class ConstsSelector
     {
         return (isset($_SERVER["SERVER_NAME"]))
                     ? self::web($_SERVER["SERVER_NAME"])
-                    : self::cli($_SERVER["COMPUTERNAME"] ?? $_SERVER["LOGNAME"]."@".$_SERVER["WSL_DISTRO_NAME"])
+                    : self::cli($_SERVER["COMPUTERNAME"] ??
+                            (
+                                isset($_SERVER["WSL_DISTRO_NAME"])
+                                        ? $_SERVER["WSL_DISTRO_NAME"]
+                                        : $_SERVER["HOSTNAME"]
+                            )
+                        )
                     ;
     }
     

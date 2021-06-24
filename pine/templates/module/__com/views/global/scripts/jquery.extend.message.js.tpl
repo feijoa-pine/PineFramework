@@ -1,11 +1,4 @@
-/**
- * Project Name: 三木　克彦グループウェア
- * Description : 標準メッセージスクリプト
- * Start Date  : 2019/03/29 10:17:51
- * Copyright   : Katsuhiko Miki. feijoa.striking-forces.jp
- * 
- * @author 三木　克彦
- */
+{:fileheader}
 (function()
 {
     /**

@@ -8,9 +8,13 @@ class {:utility_name} implements \pine\manual\UtilityManual
     protected function __construct(){}
     
     /*
-    public static function some_function_name(): void
+    public static function exec() : bool
     {
+        // $bamboo     = \pine\bamboo\Bamboo::getInstance()->db(\pine\bamboo\Database::getDB());
+        
         // write your codes here.
+        
+        return true;
     }
     */
     

@@ -12,7 +12,7 @@ class MimeSettings
             "ai"    => "application/postscript",
             "bmp"   => ["image/x-bmp", "image/bmp", "image/x-ms-bmp"],
             "css"   => "text/css",
-            "csv"   => ["text/csv", "text/comma-separated-values"],
+            "csv"   => ["text/csv", "text/plain", "text/comma-separated-values"],
             "doc"   => "application/msword",
             "exe"   => "application/octet-stream",
             "gif"   => "image/gif",

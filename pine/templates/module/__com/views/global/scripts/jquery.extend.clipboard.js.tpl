@@ -1,11 +1,4 @@
-/**
- * Project Name: Pine Framework
- * Description : モーダルプログレスアイコンスクリプト
- * Start Date  : 2019/03/29 14:41:15
- * Copyright   : Katsuhiko Miki　feijoa.striking-forces.jp
- * 
- * @author 三木　克彦
- */
+{:fileheader}
 (function()
 {
     $.extend(
